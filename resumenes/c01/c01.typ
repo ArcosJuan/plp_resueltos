@@ -60,7 +60,7 @@ El tipo de una función expresa un contrato.
 5. El resultado de una función debe tener el tipo del codominio.
 (Sólo tienen sentido los programas bien tipados)
 
-== #underline()[Modelo de cómputo]
+== #underline()[Modelo de cómputo] (Computo del valor de expresiones)
 Dada una #link(<expresión>)[expresión], se computa su valor usando #fill(purple)[ecuaciones]. \
 Las expresiones bien tipadas que #underline()[no tienen valor] se indefinen (tienen valor $bot$)
 
