@@ -1,13 +1,5 @@
-
 permutaciones :: [a] -> [[a]]
-permutaciones l = 
+permutaciones = foldr (\x rec -> concatMap (mezcla x) rec) [[]]
 
-
- 	
-
-[1,2,3] = [1,2,3]
-	  [1,3,2]
-	  [2,1,3]
-	  [2,3,1]
-	  [3,1,2]
-	  [3,2,1]
+mezcla :: a -> [a] -> [[a]]
+mezcla x xs = foldr (\n rec -> ((take n xs) ++ x : (drop n xs)):rec ) [] [0..(length xs)]
