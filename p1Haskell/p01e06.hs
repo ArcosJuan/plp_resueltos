@@ -7,7 +7,8 @@ sacarUna :: Eq a => a -> [a] -> [a]
 sacarUna e = recr (\x xs rec -> if x == e then xs else x : rec) [] 
 
 -- b)
-
+-- No se puede utilizar el esquema de recursión estructural en sacarUna
+-- porque se utiliza xs por fuera de sacarUna xs.
 
 -- c)
 insertarOrdenado :: Ord a => a -> [a] -> [a]
