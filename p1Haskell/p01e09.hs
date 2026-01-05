@@ -1,7 +1,8 @@
 -- I)
-sumaMat :: [[Int]] -> [[Int]] -> [[Int]]
-sumaMat = foldr (\xs rec -> \ys -> (zipWith (+) xs (head ys)) : rec (tail ys)) id
+foldNat :: (Integer -> b -> b) -> b -> Integer -> b
+foldNat _ z 0 = z
+foldNat f z n = f n (foldNat f z (n-1))
 
 -- II)
-transponer :: [[Int]] -> [[Int]]
-transponer =  foldr (\x rec -> if null rec then map (:[]) x else zipWith (:) x rec) []
+potencia :: Integer -> Integer -> Integer
+potencia n = foldNat (\x rec -> n * rec) 1
