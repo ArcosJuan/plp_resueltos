@@ -156,6 +156,7 @@ Usando el principio de inducción estructural, se puede probar: \
   - o bien $exists"y" :: "b". "e = Right y"$
 ]
 
+#pagebreak()
 = Extensionalidad
 Una equivalencia puede valer dependiendo el punto de vista. \
 
@@ -165,11 +166,13 @@ Dos valores son iguales si están construidos de la misma manera.
 #underline()[#highlight()[Punto de vista #fill(blue)[extensional]]] \
 Dos valores son iguales si son indistinguibles al observarlos.
 
-
 #callout()[
   #underline()[_Principio de extensionalidad funcional_] ⭐\
   Sean #raw("f, g :: a -> b"). \
-  Si ($forall"x" :: "a". "f x = g x"$) entonces f = g
+  Si ($forall"x" :: "a". "f x = g x"$) entonces f = g 
+
+  Entonces, probar f = g se reduce a probar: \
+  $forall"x"::"a". thin "f x = g x"$
 ]
 
 == Algunas propiedades utiles para demostraciones
@@ -187,7 +190,8 @@ Dos valores son iguales si son indistinguibles al observarlos.
 
 == Pasos a seguir en una demostración
 - Leer la propiedad, entenderla y convencerse de que es verdadera.
-- Plantear la propiedad como predicado unario.
+- Plantear la propiedad como predicado unario
+  #footnote[Un predicado unario es un predicado $cal(P)$ de aridad 1, es decir que solo acepta un unico argumento].
 - Plantear el esquema de inducción.
 - Plantear y resolver el o los caso(s) base.
 - Plantear y resolver el o los caso(s) inductivo(s).
