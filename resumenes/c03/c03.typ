@@ -156,6 +156,20 @@ Usando el principio de inducción estructural, se puede probar: \
   - o bien $exists"y" :: "b". "e = Right y"$
 ]
 
+#callout()[
+  #underline()[_Lema de generación para listas_] \
+  Si #raw("xs :: [a]"), entonces:
+  - o bien $"xs = [ ]"$
+  - o bien $exists"y" :: "a".thin exists"ys" :: "[a]". "xs = (y:ys)"$
+]
+
+#callout()[
+  #underline()[_Lema de generación para booleanos_] \
+  Si #raw("x :: Bool"), entonces:
+  - o bien x = True
+  - o bien x = False
+]
+
 #pagebreak()
 = Extensionalidad
 Una equivalencia puede valer dependiendo el punto de vista. \
