@@ -1,4 +1,4 @@
-#import "../../template.typ": *
+#import "../../../template.typ": *
 
 #let p1c2025 = solu[1°C 2025 - Primer Parcial #link("https://www.cubawiki.com.ar/images/0/06/PLP-1C-2025-1P-EI.pdf")[🔎]][
   *Aclaración: en este ejercicio no está permitido utilizar recursión explícita, a menos que se indique lo contrario.* \

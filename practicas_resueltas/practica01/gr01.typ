@@ -76,6 +76,17 @@
     [#link(<ej21>)[21☆]],
     [#link(<ej22>)[22]],
   )
+][
+  #v(3.5pt)
+  #set text(fill: rgb("44ACFF"))
+  _Parciales, recus y finales:_
+][
+  #ejercicios_detalle(
+    6,
+    1,
+    [#link(<prf2025>)[2025]],
+    [#link(<prf2026>)[2026]],
+  )
 ]
 
 
@@ -164,30 +175,26 @@
 ]
 
 #pagebreak()
-= Parciales, recus y finales #underline[2025]
+= Parciales, recus y finales #underline[2025] <prf2025>
 #align(center)[#ejercicios_detalle(
   4,
   1,
   [#link(<1c2025pp>)[1°C-Parcial]],
-  [#link(<1c2025pr>)[1°C-Recu]],
-  [#link(<2c2025pp>)[2°C-Parcial]],
-  [#link(<2c2025pr>)[2°C-Recu]],
-  [#link(<ej20>)[final-Febrero]],
-  [#link(<ej20>)[final-Julio]],
-  [#link(<ej20>)[final-Agosto]],
-  [#link(<ej20>)[final-Diciembre]],
+  [#link(<fd2025>)[final-Diciembre]],
 )]
 
 #p1c2025 <1c2025pp>
-#p2c2025 <1c2025pr>
+#fDiciembre2025 <fd2025>
 
+#pagebreak()
+= Parciales, recus y finales #underline[2026] <prf2026>
+#align(center)[#ejercicios_detalle(
+  4,
+  1,
+  [#link(<ff2026>)[final-Febrero]],
+  [#link(<fm2026>)[final-Marzo]],
+)]
 
-#solu[2°C 2025 - Primer Parcial #link("https://www.cubawiki.com.ar/images/b/b8/PLP_1parcial_2c25.pdf")[🔎] <2c2025pp>][
+#fFebrero2026 <ff2026>
+#fMarzo2026 <fm2026>
 
-][][
-]
-
-#solu[2°C 2025 - Primer Recuperatorio #link("s")[🔎] <2c2025pr>][
-
-][][
-]

@@ -45,11 +45,10 @@
       #stack(dir: ltr)[
         #set text(fill: white, weight: "bold")
         Prácticas de otros cuatrimestres pueden diferir en estrellas y enunciados. Ojo \
-        #underline[El siguiente resuelto no tiene ningún fin.] \
+        #underline[El siguiente resuelto no tiene ningún fin. Ni garantiza nada!] \
 
         #box(width: 40em)[
           Si queŕes hacer alguna corrección, añadir la resolución de un ejercicio o lo que se te ocurra y te cope podés mandar mensaje al grupo de Typst en telegram. Si te gustó como quedo este resuelto podés ir al taller de Typst para aprender a hacerlo!
-
         ]
       ][
         #mio_this
@@ -73,7 +72,9 @@
       ]
     ][
       #rect(width: 100%, stroke: .5pt + rgb("FE9EC7"))[
-        #enunciado
+        #no-codly[
+          #enunciado
+        ]
       ]
     ][
       #v(8pt)

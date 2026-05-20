@@ -29,6 +29,12 @@
 #import "ej_practica/ej21.typ": *
 #import "ej_practica/ej22.typ": *
 
-// PARCIALES 2025
-#import "ej_evaluaciones2025/p1c2025.typ": *
-#import "ej_evaluaciones2025/p2c2025.typ": *
+// EVALUACIONES 2025
+#import "ej_evaluaciones/2025/p1c2025.typ": *
+#import "ej_evaluaciones/2025/p2c2025.typ": *
+#import "ej_evaluaciones/2025/fDiciembre2025.typ": *
+
+// EVALUACIONES 2026
+#import "ej_evaluaciones/2026/fFebrero2026.typ": *
+#import "ej_evaluaciones/2026/fMarzo2026.typ": *
+
